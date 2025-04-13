@@ -6,8 +6,13 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '2NEQBJgR#wAhZrO3Foaybk8_dqHAUQmJHcPWpUTCcTNNpY4HP-hE', // Enter Your Session ID
+    SESSION_ID: process.env.SESSION_ID || 'PyYGwSTT#VAsoIQVxZyFs-LlJT6SSJul9WoW5T5qKFX8n3bFrjkc', // Enter Your Session ID
     MONGODB: process.env.MONGODB || 'mongodb://mongo:pyABVHyEsUQmYiSXFquHuEiNvDQitgXH@switchyard.proxy.rlwy.net:20784',    // Enter Your MongoDB URL
+    SUDO_NB: process.env.SUDO_NB || "919341378016", // 𝐀𝐃𝐃 𝐘𝐎𝐔𝐑 𝐍𝐔𝐌𝐁𝐄𝐑 𝐖𝐈𝐓𝐇 𝐂𝐎𝐔𝐍𝐓𝐑𝐘 𝐂𝐎𝐃𝐄
+
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //  𝐓𝐑𝐔𝐄 𝐎𝐑 𝐅𝐀𝐋𝐒𝐄
+    AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS || "true", 
+    //TRUE OR FALSE
     MODE: process.env.MODE || "public", // 𝗽𝗿𝗶𝘃𝗮𝘁𝗲 𝗼𝗿 𝗽𝘂𝗯𝗹𝗶𝗰 𝗮𝘀 𝗬𝗼𝘂 𝗟𝗶𝗸𝗲 
 BOT_NAME: process.env.BOT_NAME || "Zaynixmd",
 // add bot namw here for menu
