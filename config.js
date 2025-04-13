@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || '2NEQBJgR#wAhZrO3Foaybk8_dqHAUQmJHcPWpUTCcTNNpY4HP-hE', // Enter Your Session ID
-    MONGODB: process.env.MONGODB || 'mongodb+srv://udavin56:1234@cluster0.urhma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',    // Enter Your MongoDB URL
+    MONGODB: process.env.MONGODB || 'mongodb://mongo:pyABVHyEsUQmYiSXFquHuEiNvDQitgXH@switchyard.proxy.rlwy.net:20784',    // Enter Your MongoDB URL
     MODE: process.env.MODE || "public", // 𝗽𝗿𝗶𝘃𝗮𝘁𝗲 𝗼𝗿 𝗽𝘂𝗯𝗹𝗶𝗰 𝗮𝘀 𝗬𝗼𝘂 𝗟𝗶𝗸𝗲 
 BOT_NAME: process.env.BOT_NAME || "Zaynixmd",
 // add bot namw here for menu

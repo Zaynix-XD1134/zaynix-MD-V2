@@ -10,7 +10,7 @@ const { sms, downloadMediaMessage } = require('./lib/msg');
 const axios = require('axios');
 const { File } = require('megajs');
 const moment = require('moment-timezone');
-const ownerNumber = ['94787072548'];
+const ownerNumber = ['919341378016'];
 
 if (!fs.existsSync(__dirname + '/session/creds.json')) {
     if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!');
@@ -157,27 +157,7 @@ async function connectToWA() {
         if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STATUS === "true") {
             await conn.readMessages([mek.key]);
         }
-//============ AUTO STATUS REPLY ============
 
-  if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === 'on'){
-  const user = mek.key.participant
-  const text = `${config.AUTO_STATUS_MSG}`
-  await conn.sendMessage(user, { text: text, react: { text: '💚', key: mek.key } }, { quoted: mek })
-        }
-      
-//============ AUTO STATUS REACT ============
-      
-if (mek.key.remoteJid === 'status@broadcast') {
-            // Auto react configuration
-            const autoReactionEmoji = "☺";
-            if (config.AUTO_REACT_STATUS === 'on') {
-                await conn.readMessages([mek.key])
-                await conn.sendMessage( mek.key.remoteJid,
-                { react: { key: mek.key, text: autoReactionEmoji } },
-                { statusJidList: [mek.key.participant, conn.user.id] }
-				      )
-            }
-        }
 //=================================== Auto Bio ==============================
 
 
