@@ -1,0 +1,33 @@
+{
+    "name": "Zaynix-MDMD",
+    "description": "Zaynix-MD by ROMEK-XD",
+    "logo": "https://files.catbox.moe/g058cs.jpg",
+    "keywords": ["bot"],
+    "success_url": "/",
+  
+    "env": {
+      "SESSION_ID": {
+        "description": "Put the session-id here.",
+        "required": true
+      },
+      "MONGODB": {
+        "description": "Put the mongodb url here.",
+        "required": true
+      },
+      "OwnerNumber": {
+        "description": "Put the owner number here.",
+        "required": true
+      },
+      "BotNumber": {
+        "description": "Put the bot number here.",
+        "required": true
+      }
+  },
+  
+       "buildpacks": [
+          {
+              "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+          }
+       ],
+    "stack": "heroku-24"
+  }
