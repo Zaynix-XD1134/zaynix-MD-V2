@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || 'Yb1ETaTJ#ZOT2FUvm4tQ73dtJMnFkD0Q9U5rt6mNDO-sx0NNWVGc', // Enter Your Session ID
+    SESSION_ID: process.env.SESSION_ID || 'b24gARhA#xu9kbpIsdXxUY6E2d3iuwpecW7nR2aVKfR6syMoy4o0', // Enter Your Session ID
     MONGODB: process.env.MONGODB || 'mongodb://mongo:pyABVHyEsUQmYiSXFquHuEiNvDQitgXH@switchyard.proxy.rlwy.net:20784',    // Enter Your MongoDB URL
     SUDO_NB: process.env.SUDO_NB || "919341378016", // 𝐀𝐃𝐃 𝐘𝐎𝐔𝐑 𝐍𝐔𝐌𝐁𝐄𝐑 𝐖𝐈𝐓𝐇 𝐂𝐎𝐔𝐍𝐓𝐑𝐘 𝐂𝐎𝐃𝐄
 
