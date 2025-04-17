@@ -70,7 +70,7 @@ ${monspace}`;
 
         // Send the audio message
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/sl-nethu-max/QUEEN-X-MD-DATABASE/raw/refs/heads/main/media/alive%20.mp3' },
+            audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
             mimetype: 'audio/mp4',
             ptt: true
         }, {quoted:qMessage});
@@ -410,10 +410,6 @@ cmd({
         const monspace = '```';
         const desc = `🪄⃝ 𝘻𝘢𝘺𝘯𝘪𝘹-ᴍᴅ  🩷⃟🪄
 ${monspace}
-The main goal behind creating *Zaynix-MD* is to unlock the full potential of WhatsApp and simplify your daily tasks.
-${monspace}
-
-${monspace}
 💡 Features include:
 • Downloading media & statuses  
 • Managing groups smartly  
@@ -449,7 +445,7 @@ ${monspace}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: 'ɴᴇᴛʜᴜ ᴍᴀx ʏᴛ',
+                    newsletterName: 'Zaynix-MD',
                     newsletterJid: "120363395450355640@newsletter",
                 },
                 externalAdReply: {
