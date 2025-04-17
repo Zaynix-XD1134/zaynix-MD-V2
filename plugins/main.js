@@ -449,7 +449,7 @@ ${monspace}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: 'ɴᴇᴛʜᴜ ᴍᴀx ʏᴛ',
+                    newsletterName: 'Zaynix-MD',
                     newsletterJid: "120363395450355640@newsletter",
                 },
                 externalAdReply: {
