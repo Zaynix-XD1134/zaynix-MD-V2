@@ -14,7 +14,7 @@ const {
 const axios = require("axios");
 const fetch = require("node-fetch");
 
-const wm = config.FOOTER; // Watermark/footer from config
+const wm = config.DESCRIPTION; // Watermark/footer from config
 
 // Command: Blackbox AI Chat
 cmd({
