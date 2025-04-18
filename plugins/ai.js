@@ -162,7 +162,7 @@ cmd({
           title: "A MULTI DEVICE WHATSAPP BOT",
           body: "zaynix-md",
           mediaType: 1,
-          sourceUrl: "https://github.com/SUHAS-BRO/SUHAS-MD",
+          sourceUrl: "https://github.com/ROMEKTRICKS/Zaynix-MD",
           thumbnailUrl: "https://files.catbox.moe/liepk0.jpg",
           renderLargerThumbnail: false,
           showAdAttribution: true,
