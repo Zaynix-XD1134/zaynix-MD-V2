@@ -30,6 +30,7 @@
     "path": "^0.12.7",
       "os":"^0.1.2",
     "crypto": "latest",
+   "node-cache": "latest",
     "node-schedule": "2.1.1",
     "moment-timezone": "0.5.46",
     "node-fetch": "^2.6.1",
